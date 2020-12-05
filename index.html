@@ -1,29 +1,15 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<title>WineTaster 3</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>WineTaster 3</h1>
-				<p>Taste with confidence!</p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-            <li><a href="/privacy">Privacy</a></li>
-			</ul>
-		</footer>
-	</body>
-</html>
+---
+layout: default
+---
+
+<head>
+  <meta charset="utf-8" />
+</head>
+<h1>{{ page.title }}</h1>
+<p class="meta">{{ page.date | date_to_string: "ordinal", "US" }}</p>
+
+<img src="{{page.header}}" alt="{{page.header_alt}}" width="100%" /><br />
+<div class="post">{{ content }}</div>
+<div class="tags">
+  <h6>{% for secondaries in page.tags %} {{ secondaries }} {% endfor %}</h6>
+</div>
