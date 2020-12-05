@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    {% include analytics.html %}
     <title>{{ page.title }}</title>
     <!-- link to main stylesheet -->
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
@@ -17,6 +18,6 @@
     </nav>
     <div class="container">{{ content }}</div>
     <!-- /.container -->
-    <footer></footer>
+    <div class="noPrint">{% include footer.html %}</div>
   </body>
 </html>
