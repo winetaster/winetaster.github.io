@@ -5,6 +5,10 @@ body {
   width: 70%;
 }
 
+post {
+  max-width: 50%;
+}
+
 nav ul {
   padding: 10px;
   list-style: none;
