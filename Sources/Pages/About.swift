@@ -6,6 +6,7 @@ struct About: StaticPage {
 	@Environment(\.articles) var articles
 
 	var body: some HTML {
+		Text("About WineTaster").font(.title1)
 		for article in articles.all.filter({$0.title == "About WineTaster 3"}) {
 			Text(article.text)
 		}
