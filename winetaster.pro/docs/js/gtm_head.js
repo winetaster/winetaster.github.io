@@ -1,0 +1,13 @@
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-PR6N4C40RH"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+	dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+
+  gtag("config", "G-PR6N4C40RH");
+</script>
