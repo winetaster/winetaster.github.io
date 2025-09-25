@@ -1,5 +1,3 @@
-# IgniteStarter
+# WineTaster 3
 
-This repository contains a starter project built using the [Ignite static site generator](https://github.com/twostraws/Ignite) – it includes just enough to get you going, so you should refer to the [IgniteSamples](https://github.com/twostraws/IgniteSamples) repository for detailed code samples.
-
-You'll find small text file in each folder explaining what that folder does. Once you're happy with that, you should delete those files.
+WINETASTER is a program that allows you to analyze the rankings or grades assigned to wines in a “blind” tasting by a number of judges. You can ask the participants in the tasting to “rank” wines, i.e., assign ranks such as 1 (for the one a judge liked best), 2, etc. The program will ask you to input the names of the “judges,” their rankings or grades of the wines, and only after all the ranks or grades have been entered will it ask you to input the names of the individual wines (which should not be revealed before all the ranks or grades have been entered). (Normally, in a tasting you might be told which wines you will be drinking, but the bottles will be covered and identified only with letters such as A, B, C, etc., so that you do not know which wine is which). For example tasting reports, check out the archive at Liquid Asset.
